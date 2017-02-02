@@ -1,0 +1,8 @@
+{
+  "plugins": ["node"],
+  "env": { "node": true },
+  "extends": ["plugin:node/recommended"],
+  "rules": {
+     "node/no-unpublished-require": 0
+  }
+}

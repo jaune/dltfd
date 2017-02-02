@@ -1,0 +1,27 @@
+{
+  "name": "dltfd",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "./server/index.js",
+  "scripts": {
+    "lerna:bootstrap": "lerna bootstrap --yes",
+    "lerna:clean": "lerna clean --yes",
+    "develop": "concurrently --raw -k \"cd packages/dltfd-client && npm run develop\" \"cd packages/dltfd-server && npm run develop\"",
+    "develop:server": "cd packages/dltfd-server && npm run develop",
+    "develop:client": "cd packages/dltfd-client && npm run develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=7.4.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "eslint": "^3.13.1",
+    "eslint-plugin-node": "^3.0.5",
+    "eslint-plugin-react": "^6.9.0",
+    "lerna": "2.0.0-beta.34"
+  }
+}

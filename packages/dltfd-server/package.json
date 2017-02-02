@@ -1,0 +1,42 @@
+{
+  "name": "dltfd-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=7.4.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "dltfd-client": "^0.1.0",
+    "dltfd-routing": "^0.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "isomorphic-fetch": "^2.2.1",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-bnet": "^1.2.1",
+    "passport-discord": "^0.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-steam": "^1.0.7",
+    "passport-twitchtv": "^0.1.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "session-file-store": "^1.0.0",
+    "uuid": "^3.0.1"
+  }
+}

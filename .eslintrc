@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "plugins": [],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-unused-vars": ["error", { "args": "none" }]
+  }
+}
